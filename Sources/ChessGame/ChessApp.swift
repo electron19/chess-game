@@ -7,7 +7,6 @@ struct ChessApp: App {
         WindowGroup("Chess") {
             ContentView()
         }
-        .windowResizability(.contentSize)
         .commands {
             CommandGroup(replacing: .newItem) { }
         }
